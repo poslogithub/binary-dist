@@ -10,7 +10,7 @@ zipを展開して、mtgatracker_backend.exeを実行すると起動します。
 
 ## commentary_backend
 
-mtgatracker_backend、[AssistantSeika](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/start)と組み合わせて[MTG Arena](https://mtg-jp.com/mtgarena/)を[VOICEROID](https://www.ah-soft.com/voiceroid/)等に実況させることを目的としたツールです。<br />
+mtgatracker_backend、[AssistantSeika](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/start)と組み合わせて[MTG Arena](https://mtg-jp.com/mtgarena/)を[VOICEROID](https://www.ah-soft.com/voiceroid/)等に実況させるためのツールです。<br />
 zipを展開して、commentary_backend.exeを実行すると起動します。<br />
 起動する前に、以下を実行してください。<br />
 
