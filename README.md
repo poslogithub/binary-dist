@@ -1,16 +1,22 @@
-# windows-binary-dist
- Windows用バイナリ配布用
-
-## mtgatracker_backend
-
+# mtgatracker_backend
+## これは何？
 [MTGATracker](https://mtgatracker.com/)のバックエンド部分を独自に改修したものです。<br />
+commentary_backendと組み合わせて[MTG Arena](https://mtg-jp.com/mtgarena/)を自動実況するために使用します。<br />
+詳細はcommentary_backendのreadmeを参照してください。
 zipを展開して、mtgatracker_backend.exeを実行すると起動します。<br />
-[MTG Arena](https://mtg-jp.com/mtgarena/)を起動してから起動してください。<br />
+を起動してから起動してください。<br />
 [MTG Arena](https://mtg-jp.com/mtgarena/)のインストールパスをレジストリに探しに行ったりするので、セキュリティ警告が表示される場合があります。<br />
+## 使い方
+[MTG Arena](https://mtg-jp.com/mtgarena/)を起動してから起動してください。
+zipを展開して、mtgatracker_backend.exeを実行すると起動します。
+[MTG Arena](https://mtg-jp.com/mtgarena/)のインストールパスをレジストリに探しに行ったりするので、セキュリティ警告が表示される場合があります。
+コマンドプロンプトが表示されている限り起動しています。
+停止する場合はコマンドプロンプトを閉じてください。
 
-## commentary_backend
-
+# commentary_backend
+## これは何？
 mtgatracker_backend、[AssistantSeika](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/start)と組み合わせて[MTG Arena](https://mtg-jp.com/mtgarena/)を[VOICEROID](https://www.ah-soft.com/voiceroid/)等に実況させるためのツールです。<br />
+## 使い方
 zipを展開して、commentary_backend.exeを実行すると起動します。<br />
 起動する前に、以下を実行してください。<br />
 
@@ -22,3 +28,5 @@ zipを展開して、commentary_backend.exeを実行すると起動します。<
 commentary_backendの起動後、[MTG Arena](https://mtg-jp.com/mtgarena/)をプレイすると、勝手に実況してくれます。<br />
 [Windows 10 の Xbox Game Bar](https://support.xbox.com/ja-JP/help/games-apps/game-setup-and-play/get-to-know-game-bar-on-windows-10)で実況付きで録画する場合、設定/キャプチャ中/録音するオーディオを「すべて」にする必要があります。<br />
 その場合、通知音や音声通話等がすべて録音されるのでご注意ください。<br />
+## 実況内容とか
+https://github.com/poslogithub/mtga-commentary-automation/wiki を参照してください。
