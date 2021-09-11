@@ -42,6 +42,6 @@ commentary_backendの起動後、[MTG Arena](https://mtg-jp.com/mtgarena/)をプ
 mtgatracker_backend.exeを実行した際に表示されるウィンドウを、右上の×ボタンをクリックして閉じてください。<br />
 mtgatracker_backendを停止すれば、commentary_backendは自動的に停止します。<br />
 
-## 実況内容とか
+## より詳しい使い方
 
-https://github.com/poslogithub/mtga-commentary-automation/wiki を参照してください。
+https://github.com/poslogithub/binary-dist/blob/main/commentary_backend_MANUAL.md を参照してください。<br />
