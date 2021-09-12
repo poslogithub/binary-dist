@@ -7,3 +7,10 @@
 * commentary_backend\config\defaultSpeaker.jsonをいじると実況内容を変えられる
   * いじりかたは察してください
 * defaultSpeaker.jsonをコピーしてxxxx.json（xxxxは[AssistantSeikaの話者一覧で確認できるcid](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-004)。例えば1707.jsonなら東北きりたん）を作成すると、話者毎に実況内容を変えられる
+
+# FAQ
+
+* カード名の読み方が間違っている
+  * 音声合成ソフト側で辞書登録してください。
+* 実況のタイミング遅くない？
+  * MTG Arena側のログ出力タイミングに依存するので、早められないです。
