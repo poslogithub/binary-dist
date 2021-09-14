@@ -40,7 +40,7 @@
 ## 仕組みについて
 
 * exe以外に大量のファイルがあるの何とかならない？
-  * ライセンスの都合上、1ファイルに統合できないのでこうしています。
+  * 外部ライブラリのライセンスの都合上、1ファイルに統合できないのでこうしています。
 * mtgatracker_backendとcommentary_backendは統合できないの？
   * mtgatracker_backendはもともと[MTGATracker](https://mtgatracker.com/)の一部品なので、最新のMTG Arenaのログを解析するための必要最低限の改修に留めています。<br />※本家MTGATrackerは2020年7月を最後に更新が停止しており、最新のMTG Arenaのログを解析できません<br />MTGATracker自体、backendとfrontendの間でWebSocketを使って情報の受け渡しを行っているので、commentary_backendと分割することは想定通りの使用方法と言えます。
 * commentary_backendから直接AssistantSeikaに実況内容を渡せないの？
