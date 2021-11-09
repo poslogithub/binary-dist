@@ -1,3 +1,5 @@
+実行可能バイナリを配布しています。
+
 # mtga-commentary-automation
 
 MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br />
