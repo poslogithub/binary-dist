@@ -27,7 +27,7 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。
 
 # 配布場所
 
-https://github.com/poslogithub/binary-dist
+https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation
 
 # ライセンス
 
