@@ -118,6 +118,10 @@ mtgatrackerおよび外部ライブラリのライセンスはLICENSEフォル�
 
 ## その他
 
+* 自動実況を録画/配信できない
+  * Windowsの標準機能であるXbox Game Barによる録画は、デフォルトでは録画対象アプリケーションとマイク入力の音声しか録音してくれません。全ての音声を録音するようにXbox Game Barの設定を変更する必要があります。設定変更方法は、下記URLを参照してください。
+    * [富士通Q&A - [Windows 10] Xbox Game Barでアプリの音声が録音されません。 - FMVサポート : 富士通パソコン](https://www.fmworld.net/cs/azbyclub/qanavi/jsp/qacontents.jsp?PID=4811-2677)<br />この設定を行った場合、システム通知音等を含め全ての音声が録音されることに注意してください。
+  * Xbox Game Bar以外による録画や配信は分かりませんが、同じような制約がある可能性があります。
 * commentary_backendを終了すると、mtgatracker_backendも勝手に終了する。
   * 仕様です。<br />commentary_backend終了後は、mtgatracker_backendも再起動しないと挙動がおかしくなるので、そのようにしました。
 * ログファイル（.log）は何？
