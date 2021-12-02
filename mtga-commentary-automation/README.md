@@ -6,6 +6,7 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。
 
 * OSがWindowsであること。
 * MTG Arenaがインストール済であること。
+* MTG Arenaの詳細ログ（プラグインのサポート）がONであること。
 * AssistantSeikaがインストール済であること。
   * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-001a
 * AssistantSeikaが対応している音声合成製品がインストール済であること。
