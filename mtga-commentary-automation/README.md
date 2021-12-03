@@ -1,6 +1,7 @@
 # これは何？
 
-MTG ArenaをVOICEROID等に実況してもらうためのツールです。
+MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br />
+紹介動画（ https://www.nicovideo.jp/watch/sm39704958 ）を見ればおおよそ分かると思います。
 
 # 動作条件
 
