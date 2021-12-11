@@ -27,9 +27,13 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 4. mtgatracker_backend.exeを実行する。
 5. commentary_backend.exeを実行する。
 
-# 配布場所
+## 配布場所
 
 https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation
+
+## 連絡先
+
+https://twitter.com/poslog
 
 # ライセンス
 
