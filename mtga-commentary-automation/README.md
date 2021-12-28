@@ -113,7 +113,8 @@ mtgatrackerおよび外部ライブラリのライセンスはLICENSEフォル�
 
 * AssistantSeikaと音声合成製品が起動している。
 * AssistantSeikaの製品スキャンが実行済である。
-* AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [音声保存時に再生デバイスをキャプチャする] のチェックが**外れている**。
+* AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [音声保存時に再生デバイスをキャプチャする] のチェックが入っている。
+* スピーカーから何の音も出ていない。
 
 # 既知の不具合
 
@@ -145,13 +146,12 @@ mtgatrackerおよび外部ライブラリのライセンスはLICENSEフォル�
 
 ## WAVファイル出力
 
-* wavファイルと同名のtxtファイルが出力される
-  * AssistantSeikaの仕様です。
 * 出力したwavファイルにBGMやシステム通知音等が入ってしまう
-  * AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [音声保存時に再生デバイスをキャプチャする] のチェックを外していないと、そのような事象が発生します。<br />デフォルトではチェックが入っているので、忘れず外すようにしてください。<br />
-* AssistantSeikaの [音声保存時に再生デバイスをキャプチャする] のチェックを外すのは、公式サイトで非推奨とされているが？
-  * チェックを外すと、AssistantSeikaは音声合成製品の機能を使用してwavファイルを出力します。<br />その際、ファイル保存ダイアログが表示されたり、システム通知音が鳴ったりすることがあります。<br />これを避けるために公式では非推奨としていると考えられます。
-  * チェックを入れると、AssistantSeikaは再生デバイス（≒スピーカー）の音声を録音します。<br />この場合、音声合成製品の音声以外の音（MTGAのBGMや効果音、システム通知音等）を拾ってしまうため、本ツールを使用する際はチェックを外すことにしています。
+  * AssistantSeikaの仕様です。
+  * AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [音声保存時に再生デバイスをキャプチャする] のチェックを**外す**ことで回避できますが、[AssistantSeikaの公式サイト](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E9%9F%B3%E5%A3%B0%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3_%E9%9F%B3%E5%A3%B0%E4%BF%9D%E5%AD%98)では非推奨とされています。
+  * [音声保存時に再生デバイスをキャプチャする] のチェックを外してもWAVファイル出力できることは確認できています。<br />試したい方は、[AssistantSeikaの公式サイト](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E9%9F%B3%E5%A3%B0%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3_%E9%9F%B3%E5%A3%B0%E4%BF%9D%E5%AD%98)とにらめっこしつつやってみてください。
+* 出力したwavファイルが[AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)で使用できない
+  * AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [16bitのwavファイルを使用] を選択することで使用できるようになるそうです。
 
 ## その他
 
