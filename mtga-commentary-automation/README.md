@@ -108,12 +108,15 @@ mtgatrackerおよび外部ライブラリのライセンスはLICENSEフォル�
 
 ## WAVファイル出力
 
+[説明動画](https://www.nicovideo.jp/watch/sm39814379)
+
 設定ウィンドウで「WAVファイル出力」を「WAVファイル出力用batファイルを作成する」にすると、commentary_backendフォルダに「WAVファイル出力_YYYYMMDD_hhmmss.bat」ファイルが作成されます。<br />
 **以下の条件を全て満たしてから**このbatファイルを実行すると、実況内容が個別のWAVファイルとしてcommentary_backend\wavフォルダに出力されます。<br />
 
 * AssistantSeikaと音声合成製品が起動している。
 * AssistantSeikaの製品スキャンが実行済である。
-* AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [音声保存時に再生デバイスをキャプチャする] のチェックが入っている。
+* AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [音声保存時に再生デバイスをキャプチャする] のチェックが入っている。（デフォルト）
+* AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [16bitのwavファイルを使用] が選択されている。（AviUtl使用時のみ？）
 * スピーカーから何の音も出ていない。
 
 # 既知の不具合
