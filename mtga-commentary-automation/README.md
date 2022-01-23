@@ -13,11 +13,15 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 * AssistantSeikaが対応している音声合成製品がインストール済であること。
   * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E5%AF%BE%E5%BF%9C%E8%A3%BD%E5%93%81
 
+※ゆかりねっとコネクター Neoとの連携機能だけを利用する場合、AssistantSeikaと音声合成製品のインストールは不要
+
 # 導入方法
 
 * mtga-commentary-automation.zipをダウンロードして、適当なフォルダに展開する。
   * https://github.com/poslogithub/binary-dist/raw/main/mtga-commentary-automation/mtga-commentary-automation.zip
 * commentary_backendフォルダ（commentary_backend.exeファイルが存在するフォルダ）に、AssistantSeikaに同梱されているSeikaSay2.exeファイルをコピーする。
+
+※ゆかりねっとコネクター Neoとの連携機能だけを利用する場合、SeikaSay2.exeファイルをコピーは不要
 
 # 起動方法
 
@@ -26,6 +30,10 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 3. AssistantSeikaの製品スキャンを実行する。
 4. mtgatracker_backend.exeを実行する。
 5. commentary_backend.exeを実行する。
+
+* ゆかりねっとコネクター Neoとの連携機能だけを利用する場合
+  * AssistantSeikaと音声合成製品の起動は不要
+  * commentary_backend.exe起動後のAssistantSeika 起動確認で「いいえ」を押下する
 
 ## 配布場所
 
@@ -124,8 +132,9 @@ mtgatrackerおよび外部ライブラリのライセンスはLICENSEフォル�
 設定ウィンドウで「ゆかりねっとコネクター Neo」を「ゆかりねっとコネクター Neoに実況内容を連携する」にすると、<br />
 ゆかりねっとコネクター Neoの外部ツールから文章を受け取るAPIに実況内容を送るようになります。<br />
 これにより、ゆかりねっとコネクター Neo側の設定内容次第で、字幕を出したり、<br />
-[MTGカード連携プラグイン](https://www.machanbazaar.com/plugin_mtg/)によりカード画像を表示したりできます。<br />
-MTGカード連携プラグインを使用するためのカード特定辞書(Card Dictionary)は、mtgatracker_backend.exeを起動した時点でmtgatracker_backendフォルダに自動的に作成されます。<br />
+[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)によりカード画像を表示したりできます。<br />
+MTGカード支援プラグインを使用するためのカード特定辞書(Card Dictionary)は、mtgatracker_backend.exeを起動した時点でmtgatracker_backendフォルダに自動的に作成されます。<br />
+ファイル名は「CardDictionary.csv」です。<br />
 
 # 既知の不具合
 
@@ -220,3 +229,7 @@ MTGカード連携プラグインを使用するためのカード特定辞書(C
 ## version 1.4.0
 
 * ゆかりねっとコネクター Neo連携機能追加
+
+## version 1.4.1
+
+* AssistantSeika未導入でもゆかりねっとコネクター Neo連携機能を使えるようにした
