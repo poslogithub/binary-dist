@@ -136,6 +136,13 @@ mtgatrackerおよび外部ライブラリのライセンスはLICENSEフォル�
 MTGカード支援プラグインを使用するためのカード特定辞書(Card Dictionary)は、mtgatracker_backend.exeを起動した時点でmtgatracker_backendフォルダに自動的に作成されます。<br />
 ファイル名は「CardDictionary.csv」です。<br />
 
+### 自動実況させずにゆかりねっとコネクター Neoとの連携を行う
+
+AssistantSeikaが未起動、または未導入の状態でcommentary_backendを起動すると、AssistantSeika起動確認ダイアログが表示されます。<br />
+AssistantSeika起動確認ダイアログで「いいえ」をクリックすると、話者にダミー話者が設定されます。<br />
+ダミー話者は実況をしませんが、実況しているかのようにゆかりねっとコネクター Neoとの連携が可能です。<br />
+ダミー話者も他の話者と同じく、実況内容を変更することが可能です。<br />
+
 # 既知の不具合
 
 * 直したけど難しいもの（MTGATrackerの実装に依存するため）
