@@ -2,21 +2,21 @@
 
 ## これは何？
 
-MTGA自動実況ツール+ゆかりねっとコネクターNeo(MTGカード支援プラグイン)でカード画像を表示するために、
-カード画像のキャッシュをあらかじめダウンロードするためのツールです。
-具体的には、指定したCard Image Galleryのページから全てのカード画像を、
-指定したフォルダに「カード名.jpg」という名前で保存します。
-ゆかりねっとコネクターNeo(MTGカード支援プラグイン)のキャッシュフォルダ
-（通常、マイ ドキュメント\YukarinetteConnector\MTGCache）を指定すれば、
-ゆかりねっとコネクターNeo(MTGカード支援プラグイン)がキャッシュとして認識します。
+MTGA自動実況ツール+ゆかりねっとコネクターNeo(MTGカード支援プラグイン)でカード画像を表示するために、<br />
+カード画像のキャッシュをあらかじめダウンロードするためのツールです。<br />
+具体的には、指定したCard Image Galleryのページから全てのカード画像を、<br />
+指定したフォルダに「カード名.jpg」という名前で保存します。<br />
+ゆかりねっとコネクターNeo(MTGカード支援プラグイン)のキャッシュフォルダ<br />
+（通常、マイ ドキュメント\YukarinetteConnector\MTGCache）を指定すれば、<br />
+ゆかりねっとコネクターNeo(MTGカード支援プラグイン)がキャッシュとして認識します。<br />
 
 ## 実行方法
 
 1. downloader.exeを実行する
-2. 「Card Image Gallery URL」にカード画像をダウンロードしたいCard Image GalleryのURLの入力する。
-   注意：Card Image GalleryのURLには「 https://magic.wizards.com/ 」で始まるものと、
-   　　　「 https://mtg-jp.com/ 」で始まるものの2種類が存在します。
-   　　　本ツールは「 https://magic.wizards.com/ 」で始まるCard Image Galleryのみ対応しています。
+2. 「Card Image Gallery URL」にカード画像をダウンロードしたいCard Image GalleryのURLの入力する。<br />
+   注意：Card Image GalleryのURLには「 https://magic.wizards.com/ 」で始まるものと、<br />
+   　　　「 https://mtg-jp.com/ 」で始まるものの2種類が存在します。<br />
+   　　　本ツールは「 https://magic.wizards.com/ 」で始まるCard Image Galleryのみ対応しています。<br />
 3. 「保存先フォルダ」にゆかりねっとコネクターNeo(MTGカード支援プラグイン)のキャッシュフォルダを指定する。
 4. 「実行」ボタンを押下する。
 
