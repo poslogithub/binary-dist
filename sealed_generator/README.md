@@ -17,7 +17,7 @@ MTG Arena用シールドシミュレータです。以下の機能がありま�
 # 導入方法
 
 * magic-league-generator.zipをダウンロードして、適当なフォルダに展開する。
-  * https://github.com/poslogithub/binary-dist/raw/main/magic-league-generator/magic-league-generator.zip
+  * https://github.com/poslogithub/binary-dist/raw/main/sealed_generator/sealed_generator.zip
 
 # 起動方法
 
@@ -25,7 +25,7 @@ MTG Arena用シールドシミュレータです。以下の機能がありま�
 
 ## 配布場所
 
-https://github.com/poslogithub/binary-dist/tree/main/magic-league-generator
+https://github.com/poslogithub/binary-dist/raw/main/sealed_generator/
 
 ## 連絡先
 
