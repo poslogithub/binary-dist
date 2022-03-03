@@ -1,6 +1,6 @@
 # sealed_generator
 
-# これは何？
+## これは何？
 
 MTG Arena用シールドシミュレータです。以下の機能があります。<br />
 
@@ -9,29 +9,29 @@ MTG Arena用シールドシミュレータです。以下の機能がありま�
 * 日次、週次、月次で固定のカードプールを出力する。
 * 剥くパックの個数を指定する。
 
-# 動作条件
+## 動作条件
 
 * OSがWindowsであること。
 * MTG Arenaがインストール済であること。
 
-# 導入方法
+## 導入方法
 
 * magic-league-generator.zipをダウンロードして、適当なフォルダに展開する。
   * https://github.com/poslogithub/binary-dist/raw/main/sealed_generator/sealed_generator.zip
 
-# 起動方法
+## 起動方法
 
 1. magic_league_generator.exeを実行する。
 
-# 配布場所
+## 配布場所
 
 https://github.com/poslogithub/binary-dist/raw/main/sealed_generator/
 
-# 連絡先
+## 連絡先
 
 https://twitter.com/poslog
 
-# ライセンス
+## ライセンス
 
 MIT License
 
@@ -57,20 +57,20 @@ SOFTWARE.
 
 外部ライブラリのライセンスはLICENSEフォルダを参照してください。
 
-# より詳しい使用方法
+## より詳しい使用方法
 
 TODO
 
-# 既知の不具合
+## 既知の不具合
 
 TODO
 
-# FAQ
+## FAQ
 
 TODO
 
-# 更新履歴
+## 更新履歴
 
-## version 1.0.0
+### version 1.0.0
 
-* TODO
+* 公開
