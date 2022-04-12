@@ -65,16 +65,19 @@ SOFTWARE.
 ## 既知の問題
 
 * メイス＋２をインポートできない
-  * 謎。<br />MTGAでメイス＋２を含むデッキをエクスポート→インポートしても失敗するので、MTGAのバグと言ってよい。<br />
+  * 謎。
+  * MTGAでメイス＋２を含むデッキをエクスポート→インポートしても失敗するので、MTGAのバグと言ってよい。
 * デッキリスト画像をエクスポートした時、一部のカード画像がダミーになる
-  * 仕様。<br />本ツールは[MTG Developers](https://magicthegathering.io/)で画像URL（通常[Gatherer](https://gatherer.wizards.com/Pages/Default.aspx)）を特定してダウンロードしている。<br />[MTG Developers](https://magicthegathering.io/)で画像URLを特定できない場合や、[Gatherer](https://gatherer.wizards.com/Pages/Default.aspx)に画像データが存在しない場合は、ダミーを出力するようにしている。<br />
+  * 仕様。
+  * 本ツールは[MTG Developers](https://magicthegathering.io/)で画像URL（通常[Gatherer](https://gatherer.wizards.com/Pages/Default.aspx)）を特定してダウンロードしている。<br />[MTG Developers](https://magicthegathering.io/)で画像URLを特定できない場合や、[Gatherer](https://gatherer.wizards.com/Pages/Default.aspx)に画像データが存在しない場合は、ダミーを出力するようにしている。<br />
   * ダミー出力される主なカードは以下。
     * デジタル専用カード
       * アルケミー専用カード
       * アリーナ基礎セット
       * アルケミーで調整されたカード
 * デッキリスト画像をエクスポートした時、一部のカード画像が英語版になる
-  * 仕様。<br />[MTG Developers](https://magicthegathering.io/)で日本語版カード画像URLを特定できない場合は、英語版カード画像を出力するようにしている。<br />
+  * 仕様。
+  * [MTG Developers](https://magicthegathering.io/)で日本語版カード画像URLを特定できない場合は、英語版カード画像を出力するようにしている。<br />
   * 英語版カード画像が出力される主なカードは以下。
     * カルドハイム以降の両面カード
     * イニストラード：真夜中の狩りの基本土地カード
