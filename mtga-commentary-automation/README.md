@@ -129,11 +129,9 @@ mtgatrackerおよび外部ライブラリのライセンスはLICENSEフォル�
 
 ## [ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)との連携
 
-設定ウィンドウで「ゆかりねっとコネクターNeo」を「ゆかりねっとコネクターNeoに実況内容を連携する」にすると、<br />
-ゆかりねっとコネクターNeoの外部ツールから文章を受け取るAPIに実況内容を送るようになります。<br />
-これにより、ゆかりねっとコネクターNeo側の設定内容次第で、字幕を出したり、<br />
-[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)によりカード画像を表示したりできます。<br />
-MTGカード支援プラグインを使用するためのカード特定辞書(Card Dictionary)は、mtgatracker_backend.exeを起動した時点でmtgatracker_backendフォルダに自動的に作成されます。<br />
+設定ウィンドウで「ゆかりねっとコネクターNeo」を「ゆかりねっとコネクターNeoに実況内容を連携する」にすると、ゆかりねっとコネクターNeoの外部ツールから文章を受け取るAPIに実況内容を送るようになります。<br />
+これにより、ゆかりねっとコネクターNeo側の設定内容次第で、字幕を出したり、[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)によりカード画像を表示したりできます。<br />
+MTGカード支援プラグインを使用するためのカード特定辞書(Card Dictionary)は、mtgatracker_backend.exeを起動した時点でmtgatracker_backendフォルダに自動的に作成されます（commentary_backendフォルダではありません）。<br />
 ファイル名は「CardDictionary.csv」です。<br />
 
 ### 自動実況させずにゆかりねっとコネクターNeoとの連携を行う
