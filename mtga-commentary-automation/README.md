@@ -252,3 +252,7 @@ AssistantSeika起動確認ダイアログで「いいえ」をクリックする
 ## version 1.4.2
 
 * mtgatracker_backend起動時に、CardDictionary.csvにAppend.csvを追加するようにした
+
+## version 1.4.3
+
+* いつの間にかゲーム終了時に実況しなくなっていた不具合を修正した
