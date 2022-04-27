@@ -11,6 +11,11 @@ Magic: the Gateringのカード画像をセットごとに一括ダウンロー�
 * [MTGA自動実況ツール](https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation)+[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)の[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)でカード画像を表示するために、カード画像のキャッシュをあらかじめダウンロードしておきたい、という場合に。<br />
 ゆかりねっとコネクターNeoのMTGカード支援プラグインのキャッシュフォルダ（通常、`マイ ドキュメント\YukarinetteConnector\MTGCache`）を指定すれば、ゆかりねっとコネクターNeoのMTGカード支援プラグインがキャッシュとして認識します。<br />
 
+## 導入方法
+
+* mtg-card-gallery-downloader.zipをダウンロードして、適当なフォルダに展開する。
+  * https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader/mtg-card-gallery-downloader.zip
+
 ## 実行方法
 
 1. downloader.exeを実行する
@@ -22,9 +27,9 @@ Magic: the Gateringのカード画像をセットごとに一括ダウンロー�
 4. 「実行」ボタンを押下する。<br />
 　ダウンロード状況はプロンプト（黒背景のウィンドウ）に表示されます。<br />
 
-## ダウンロード
+## 配布場所
 
-https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader/mtg-card-gallery-downloader.zip
+https://github.com/poslogithub/binary-dist/tree/main/mtg-card-gallery-downloader
 
 ## 連絡先
 
