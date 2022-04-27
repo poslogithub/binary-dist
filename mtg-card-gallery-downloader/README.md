@@ -22,9 +22,9 @@ Magic: the Gateringのカード画像をセットごとに一括ダウンロー�
 4. 「実行」ボタンを押下する。<br />
 　ダウンロード状況はプロンプト（黒背景のウィンドウ）に表示されます。<br />
 
-## 配布場所
+## ダウンロード
 
-https://github.com/poslogithub/binary-dist/tree/main/mtg-card-gallery-downloader
+https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader/mtg-card-gallery-downloader.zip
 
 ## 連絡先
 
