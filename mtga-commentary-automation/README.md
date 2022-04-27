@@ -13,6 +13,8 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
   * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-001a
 * AssistantSeikaが対応している音声合成製品がインストール済であること。
   * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E5%AF%BE%E5%BF%9C%E8%A3%BD%E5%93%81
+* ゆかりねっとコネクターNeoがインストール済であること。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+  * https://www.machanbazaar.com/ync-neo/
 
 ※ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、AssistantSeikaと音声合成製品のインストールは不要。
 
@@ -30,11 +32,12 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 2. AssistantSeikaと音声合成製品を起動する。
 3. AssistantSeikaの製品スキャンを実行する。
 4. MTGA自動実況ツール起動.batを実行する。
-5. ゆかりねっとコネクターNeoを起動する（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）。
+5. ゆかりねっとコネクターNeoを起動する。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+6. ゆかりねっとコネクターNeoのMTGカード支援プラグインの設定を開き、カード特定辞書にmtgatracker_backendフォルダ配下のCardDictionary.csvファイルを指定する。<br />（初回のみ。ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
 
 * ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、
   * AssistantSeikaと音声合成製品の起動は不要。
-  * commentary_backend.exe起動後のAssistantSeika 起動確認で「いいえ」を押下する。
+  * commentary_backend起動後のAssistantSeika 起動確認で「いいえ」を押下する。
 
 ## 配布場所
 
@@ -139,6 +142,7 @@ MTGカード支援プラグインを使用するためのカード特定辞書(C
 
 ### 自動実況させずにゆかりねっとコネクターNeoとの連携を行う
 
+MTGカード支援プラグインを使ってカード画像を表示したいけど、実況は自分でやるので自動実況はしてほしくない、という場合のやり方です。<br />
 AssistantSeikaが未起動、または未導入の状態でcommentary_backendを起動すると、AssistantSeika起動確認ダイアログが表示されます。<br />
 AssistantSeika起動確認ダイアログで「いいえ」をクリックすると、話者にダミー話者が設定されます。<br />
 ダミー話者は実況をしませんが、実況しているかのようにゆかりねっとコネクターNeoとの連携が可能です。<br />
