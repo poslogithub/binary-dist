@@ -14,7 +14,7 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 * AssistantSeikaが対応している音声合成製品がインストール済であること。
   * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E5%AF%BE%E5%BF%9C%E8%A3%BD%E5%93%81
 
-※ゆかりねっとコネクター Neoとの連携機能だけを利用する場合、AssistantSeikaと音声合成製品のインストールは不要
+※ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、AssistantSeikaと音声合成製品のインストールは不要。
 
 # 導入方法
 
@@ -22,7 +22,7 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
   * https://github.com/poslogithub/binary-dist/raw/main/mtga-commentary-automation/mtga-commentary-automation.zip
 * commentary_backendフォルダ（commentary_backend.exeファイルが存在するフォルダ）に、AssistantSeikaに同梱されているSeikaSay2.exeファイルをコピーする。
 
-※ゆかりねっとコネクター Neoとの連携機能だけを利用する場合、SeikaSay2.exeファイルをコピーは不要
+※ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、SeikaSay2.exeファイルをコピーは不要。
 
 # 起動方法
 
@@ -30,10 +30,11 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 2. AssistantSeikaと音声合成製品を起動する。
 3. AssistantSeikaの製品スキャンを実行する。
 4. MTGA自動実況ツール起動.batを実行する。
+5. ゆかりねっとコネクターNeoを起動する（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）。
 
-* ゆかりねっとコネクター Neoとの連携機能だけを利用する場合
-  * AssistantSeikaと音声合成製品の起動は不要
-  * commentary_backend.exe起動後のAssistantSeika 起動確認で「いいえ」を押下する
+* ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、
+  * AssistantSeikaと音声合成製品の起動は不要。
+  * commentary_backend.exe起動後のAssistantSeika 起動確認で「いいえ」を押下する。
 
 ## 配布場所
 
