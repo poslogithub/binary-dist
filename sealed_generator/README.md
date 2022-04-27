@@ -82,6 +82,11 @@ SOFTWARE.
     * カルドハイム以降の両面カード
     * イニストラード：真夜中の狩りの基本土地カード
       * 実際は日本語版カード画像URLを特定できないわけではなく、カード裏面画像になっているため英語版カード画像を出力している
+* ドミナリアのカード画像が表示されない
+  * MTGAと[MTG Developers](https://magicthegathering.io/)でセット名が異なるのが原因です。
+    * MTGA: DAR
+    * [MTG Developers](https://magicthegathering.io/): DOM
+  * 印刷されているカードを見る限りDOMが正しいはずですが、[公式でもDARを使うことがあるらしい](https://mtg.fandom.com/wiki/Dominaria)です。あのさぁ...
 
 ## FAQ
 
