@@ -13,7 +13,7 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
   * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-001a
 * AssistantSeikaが対応している音声合成製品がインストール済であること。
   * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E5%AF%BE%E5%BF%9C%E8%A3%BD%E5%93%81
-* ゆかりねっとコネクターNeoがインストール済であること。（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+* ゆかりねっとコネクターNeoがインストール済であること。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
   * https://www.machanbazaar.com/ync-neo/
 
 ※ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、AssistantSeikaと音声合成製品のインストールは不要。
@@ -32,8 +32,8 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 2. AssistantSeikaと音声合成製品を起動する。
 3. AssistantSeikaの製品スキャンを実行する。
 4. MTGA自動実況ツール起動.batを実行する。
-5. ゆかりねっとコネクターNeoを起動する。（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
-6. ゆかりねっとコネクターNeoのMTGカード支援プラグインの設定を開き、カード特定辞書にmtgatracker_backendフォルダ配下のCardDictionary.csvファイルを指定する。（初回のみ。ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+5. ゆかりねっとコネクターNeoを起動する。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+6. ゆかりねっとコネクターNeoのMTGカード支援プラグインの設定を開き、カード特定辞書にmtgatracker_backendフォルダ配下のCardDictionary.csvファイルを指定する。<br />（初回のみ。ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
 
 * ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、
   * AssistantSeikaと音声合成製品の起動は不要。
