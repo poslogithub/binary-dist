@@ -2,13 +2,9 @@
 
 ## これは何？
 
-[MTGA自動実況ツール](https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation)+[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)の[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)でカード画像を表示するために、<br />
-カード画像のキャッシュをあらかじめダウンロードするためのツールです。<br />
-具体的には、指定したCard Image Galleryのページから全てのカード画像を、<br />
-指定したフォルダに「カード名.jpg」という名前で保存します。<br />
-ゆかりねっとコネクターNeoのMTGカード支援プラグインのキャッシュフォルダ<br />
-（通常、`マイ ドキュメント\YukarinetteConnector\MTGCache`）を指定すれば、<br />
-ゆかりねっとコネクターNeoのMTGカード支援プラグインがキャッシュとして認識します。<br />
+[MTGA自動実況ツール](https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation)+[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)の[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)でカード画像を表示するために、カード画像のキャッシュをあらかじめダウンロードするためのツールです。<br />
+具体的には、指定したCard Image Galleryのページから全てのカード画像を、指定したフォルダに「カード名.png」という名前で保存します。<br />
+ゆかりねっとコネクターNeoのMTGカード支援プラグインのキャッシュフォルダ（通常、`マイ ドキュメント\YukarinetteConnector\MTGCache`）を指定すれば、ゆかりねっとコネクターNeoのMTGカード支援プラグインがキャッシュとして認識します。<br />
 
 ## 実行方法
 
