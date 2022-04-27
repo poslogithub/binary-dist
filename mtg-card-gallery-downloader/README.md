@@ -2,8 +2,13 @@
 
 ## これは何？
 
-[MTGA自動実況ツール](https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation)+[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)の[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)でカード画像を表示するために、カード画像のキャッシュをあらかじめダウンロードするためのツールです。<br />
+Magic: the Gateringのカード画像をセットごとに一括ダウンロードするツールです。
 具体的には、指定したCard Image Galleryのページから全てのカード画像を、指定したフォルダに「カード名.png」という名前で保存します。<br />
+
+## 用途は？
+
+* 動画作成のためにカード画像をダウンロードしたいけど、1枚ずつダウンロードしてファイル名をカード名にするのが面倒だ、という場合に。
+* [MTGA自動実況ツール](https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation)+[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)の[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)でカード画像を表示するために、カード画像のキャッシュをあらかじめダウンロードしておきたい、という場合に。<br />
 ゆかりねっとコネクターNeoのMTGカード支援プラグインのキャッシュフォルダ（通常、`マイ ドキュメント\YukarinetteConnector\MTGCache`）を指定すれば、ゆかりねっとコネクターNeoのMTGカード支援プラグインがキャッシュとして認識します。<br />
 
 ## 実行方法
@@ -13,7 +18,7 @@
    注意：Card Image GalleryのURLには「`https://magic.wizards.com/`」で始まるものと、<br />
    　　　「`https://mtg-jp.com/`」で始まるものの2種類が存在します。<br />
    　　　本ツールは前者「`https://magic.wizards.com/`」で始まるCard Image Galleryのみ対応しています。<br />
-3. 「保存先フォルダ」にゆかりねっとコネクターNeo(MTGカード支援プラグイン)のキャッシュフォルダを指定する。
+3. 「保存先フォルダ」を指定する。
 4. 「実行」ボタンを押下する。<br />
 　ダウンロード状況はプロンプト（黒背景のウィンドウ）に表示されます。<br />
 
