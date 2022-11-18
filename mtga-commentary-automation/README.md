@@ -297,7 +297,7 @@ AssistantSeika起動確認ダイアログで「いいえ」をクリックする
 * 団結のドミナリア実装あたりで動かなくなったのを修正
   * 一部のログフォーマットが変わったことに対応
 
-## version 1.6.3
+## version 1.6.4
 
 * 兄弟戦争実装あたりで動かなくなったのを修正
   * MatchGameRoomStateChangedEventのeventIdが必須でなくなったことに対応
