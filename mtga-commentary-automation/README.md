@@ -2,7 +2,8 @@
 
 MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br />
 紹介動画（ https://www.nicovideo.jp/watch/sm39704958 ）を見ればおおよそ分かると思います。<br />
-[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)と連携することで、字幕やカード画像の表示もできるようになります。参考動画：https://www.nicovideo.jp/watch/sm39993445
+[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)と連携することで、字幕やカード画像の表示もできるようになります。<br />
+参考動画：https://www.nicovideo.jp/watch/sm39993445<br />
 
 # 動作条件
 
