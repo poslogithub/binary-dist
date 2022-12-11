@@ -40,9 +40,13 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
   * AssistantSeikaと音声合成製品の起動は不要。
   * commentary_backend起動後のAssistantSeika 起動確認で「いいえ」を押下する。
 
-## 配布場所
+# 配布場所
 
-https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation
+* バイナリ
+  * https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation
+* ソース
+  * https://github.com/poslogithub/mtgatracker
+  * https://github.com/poslogithub/mtga-commentary-automation
 
 ## 連絡先
 
