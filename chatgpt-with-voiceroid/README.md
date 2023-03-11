@@ -24,9 +24,12 @@
 2. AssistantSeikaを起動する。
 3. AssistantSeikaの製品スキャンを実行する。
 4. chatgpt-with-voiceroid.exeを実行する。
-5. 設定ウィンドウのAccess tokenに、[ChatGPTのセッション情報](https://chat.openai.com/api/auth/session)の`accessToken`の値を入力する。<br />セッション情報は「開く」ボタンをクリックすることでも表示される。
-6. 設定ウィンドウの話者から読み上げさせたい話者を選択する。
-7. 「開始」ボタンをクリックする。
+5. chat.openai.comを使う (無料)場合: 
+  * 設定ウィンドウのAccess tokenに、[ChatGPTのセッション情報](https://chat.openai.com/api/auth/session)の`accessToken`の値を入力する。<br />セッション情報は「開く」ボタンをクリックすることでも表示される。
+6. 公式APIを使う (有料)場合:
+  * 設定ウィンドウのAPI Keyに、[API Key](https://platform.openai.com/account/api-keys)の`accessToken`の値を入力する。<br />API Keyは「開く」ボタンをクリックすることでも表示される。
+7. 設定ウィンドウの話者から読み上げさせたい話者を選択する。
+8. 「開始」ボタンをクリックする。
 
 # 配布場所
 
@@ -67,10 +70,10 @@ SOFTWARE.
 
 # 今後の展望
 
-1. 回答全文の生成を待たずに話し始めるようにする（できるかどうか知らないけど）
-2. ChatGPTとの通信を非同期化
-3. 質問もVOICEROID等に読み上げてもらえるようにする
-4. 質問を音声認識で入力できるようにする
+1. キュー管理をちゃんとする
+2. 質問を音声認識で入力できるようにする
+3. 公式APIをrevChatGPTを介さずに利用する
+4. 質問もVOICEROID等に読み上げてもらえるようにする
 
 # 更新履歴
 
