@@ -1,3 +1,5 @@
+OpenAIにBANされる可能性があるので公開停止。
+
 # これは何？
 
 [ChatGPT](https://openai.com/blog/chatgpt/)の回答をVOICEROID等に読み上げてもらうツールです。<br />
