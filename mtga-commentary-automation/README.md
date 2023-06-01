@@ -176,14 +176,9 @@ AssistantSeika起動確認ダイアログで「いいえ」をクリックする
     * 呪文書のドラフト
     * トークンの死亡、生け贄、追放等
 * 直したけど難しいもの（その他外部ツールの実装に依存するため）
-  * ゆかりねっとコネクター Neoと連携してMTGカード連携プラグインでカード画像を表示する際に、誤った画像が表示される場合がある。
-    * これは、ゆかりねっとコネクターNeoのMTGキャッシュフォルダ（マイ ドキュメント\YukarinetteConnector\MTGCache）内の同名画像ファイルを、正しい画像ファイルに差し替えることで回避できます。
-    * ゆかりねっとコネクターNeo v1.83で多少改善されています。[参考](https://twitter.com/mikasa231/status/1489905231819608068)
-  * ゆかりネットコネクターNeoに発話内容が連携されない
-    * ゆかりねっとコネクターNeo v1.952以上で、ゆかりネットコネクターNeoに発話内容が連携されない事象が確認されています。
-    * https://machanbazaar.com/ync-neo/ の最下部からダウンロードできる、ゆかりねっとコネクターNeo v1.947ならば発話内容が連携されることを確認済です。
-  * ゆかりねっとコネクターNeoのOBS連携プラグインがOBSに接続できない
-    * わかんない！
+  * ゆかりねっとコネクターNEOと連携してMTGカード連携プラグインでカード画像を表示する際に、誤った画像が表示される場合がある。
+    * これは、ゆかりねっとコネクターNEOのMTGキャッシュフォルダ（マイ ドキュメント\YukarinetteConnector\MTGCache）内の同名画像ファイルを、正しい画像ファイルに差し替えることで回避できます。
+    * [https://github.com/poslogithub/binary-dist/tree/main/mtg-card-gallery-downloader](https://github.com/poslogithub/binary-dist/tree/main/mtg-card-gallery-downloader)であらかじめカード画像ファイルを全てダウンロードしてしまうのが確実です。
 * 直せないもの（MTG Arenaのログ出力に依存するため）
   * 実況のタイミングが早い/遅い。
   * 対戦終了の実況後にライフ減少やクリーチャー死亡等の実況をする。
@@ -210,6 +205,13 @@ AssistantSeika起動確認ダイアログで「いいえ」をクリックする
   * [音声保存時に再生デバイスをキャプチャする] のチェックを外してもWAVファイル出力できることは確認できています。<br />試したい方は、[AssistantSeikaの公式サイト](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E9%9F%B3%E5%A3%B0%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3_%E9%9F%B3%E5%A3%B0%E4%BF%9D%E5%AD%98)とにらめっこしつつやってみてください。
 * 出力したwavファイルが[AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)で使用できない
   * AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [16bitのwavファイルを使用] を選択することで使用できるようになるそうです。
+
+## ゆかりねっとコネクターNEOとの連携
+
+* ゆかりねっとコネクターNEOに発話内容が連携されない
+  * ゆかりねっとコネクターNEO側のHTTP待ち受けポートが変わっている可能性があります。自動実況ツールを停止している状態で、以下の手順を実施してください。[参考](https://twitter.com/poslog/status/1655031817785974790)
+    * ゆかりねっとコネクターNEOの [...] > [動作状況] > [Communication Port] > [HTTP(NEO-API)]の値を確認する。
+    * 自動実況ツールのcommentary_backend\config\config.jsonファイルのyukarinetteConnectorNeoUrlを、確認した値に書き換えて保存する。
 
 ## その他
 
