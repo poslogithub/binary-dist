@@ -18,7 +18,7 @@ MTGのカード画像をセットごとに一括ダウンロードするため�
 
 # mtga-commentary-automation
 
-MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br />
+[MTG Arena](https://mtg-jp.com/mtgarena/)をVOICEROID等に実況してもらうためのツールです。<br />
 詳細は https://github.com/poslogithub/binary-dist/blob/main/mtga-commentary-automation/README.md を読んでください。<br />
 
 # sealed_generator
