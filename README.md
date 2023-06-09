@@ -9,7 +9,7 @@
 # hengband-with-voice
 
 [変愚蛮怒](https://hengband.github.io/)をVOICEROID等に実況してもらうためのツールです。<br />
-詳細は  を読んでください。<br />
+詳細は https://github.com/poslogithub/binary-dist/blob/main/hengband-with-voice/README.md を読んでください。<br />
 
 # mtg-card-gallery-downloader
 
