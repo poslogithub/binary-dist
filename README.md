@@ -5,6 +5,10 @@
 [ChatGPT](https://openai.com/blog/chatgpt/)の回答をVOICEROID等に読み上げてもらうツールです。<br />
 詳細は https://github.com/poslogithub/binary-dist/blob/main/chatgpt-with-voiceroid/README.md を読んでください。<br />
 
+# hengband-with-voice
+
+[変愚蛮怒](https://hengband.github.io/)を
+
 # mtg-card-gallery-downloader
 
 MTGのカード画像をセットごとに一括ダウンロードするためのツールです。<br />
