@@ -4,10 +4,12 @@
 
 [ChatGPT](https://openai.com/blog/chatgpt/)の回答をVOICEROID等に読み上げてもらうツールです。<br />
 詳細は https://github.com/poslogithub/binary-dist/blob/main/chatgpt-with-voiceroid/README.md を読んでください。<br />
+**OpenAIにBANされる可能性があるので公開停止しました。**<br />
 
 # hengband-with-voice
 
-[変愚蛮怒](https://hengband.github.io/)を
+[変愚蛮怒](https://hengband.github.io/)をVOICEROID等に実況してもらうためのツールです。<br />
+詳細は  を読んでください。<br />
 
 # mtg-card-gallery-downloader
 
