@@ -7,7 +7,7 @@ Magic: the Gateringのカード画像をセットごとに一括ダウンロー�
 
 ## 用途は？
 
-* 動画作成のためにカード画像をダウンロードしたいけど、1枚ずつダウンロードしてファイル名をカード名にするのが面倒だ、という場合に。
+* 記事執筆や動画作成のためにカード画像をダウンロードしたいけど、1枚ずつダウンロードしてファイル名をカード名にするのが面倒だ、という場合に。
 * [MTGA自動実況ツール](https://github.com/poslogithub/binary-dist/tree/main/mtga-commentary-automation)+[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)の[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)でカード画像を表示するために、カード画像のキャッシュをあらかじめダウンロードしておきたい、という場合に。<br />
 ゆかりねっとコネクターNeoのMTGカード支援プラグインのキャッシュフォルダ（通常、`マイ ドキュメント\YukarinetteConnector\MTGCache`）を指定すれば、ゆかりねっとコネクターNeoのMTGカード支援プラグインがキャッシュとして認識します。<br />
 
