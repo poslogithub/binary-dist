@@ -2,6 +2,7 @@
 
 [変愚蛮怒](https://hengband.github.io/)をVOICEROID等に実況してもらうためのツールです。<br />
 といいつつ、派生版（TObandとか幻想蛮怒とか）でも使えるんじゃないかな...試してないけど。<br />
+2023/6/20追記：[馬鹿馬鹿蛮怒](https://sikabane-works.github.io/bakabakaband/)0.0.0.39Alphaで動作することを確認しました。<br />
 
 # 動作条件
 
