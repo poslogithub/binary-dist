@@ -2,7 +2,7 @@
 
 MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br />
 紹介動画（ https://www.nicovideo.jp/watch/sm39704958 ）を見ればおおよそ分かると思います。<br />
-[ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)と連携することで、字幕やカード画像の表示もできるようになります。<br />
+[ゆかりねっとコネクターNeo](https://nmori.github.io/yncneo-Docs/)と連携することで、字幕やカード画像の表示もできるようになります。<br />
 参考動画：https://www.nicovideo.jp/watch/sm39993445<br />
 
 # 動作条件
@@ -11,11 +11,11 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 * MTG Arenaがインストール済であること。
 * MTG Arenaの詳細ログ（プラグインのサポート）がONであること。
 * AssistantSeikaがインストール済であること。
-  * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-001a
+  * https://wiki.hgotoh.jp/documents/tools/assistantseika/assistantseika-001a
 * AssistantSeikaが対応している音声合成製品がインストール済であること。
-  * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E5%AF%BE%E5%BF%9C%E8%A3%BD%E5%93%81
+  * https://wiki.hgotoh.jp/documents/tools/assistantseika/assistantseika-000#%E5%AF%BE%E5%BF%9C%E8%A3%BD%E5%93%81
 * ゆかりねっとコネクターNeoがインストール済であること。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
-  * https://www.machanbazaar.com/ync-neo/
+  * https://nmori.github.io/yncneo-Docs/download/
 
 ※ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、AssistantSeikaと音声合成製品のインストールは不要。
 
@@ -141,7 +141,7 @@ mtgatrackerおよび外部ライブラリのライセンスはLICENSEフォル�
 ## [ゆかりねっとコネクターNeo](https://www.machanbazaar.com/ync-neo/)との連携
 
 設定ウィンドウで「ゆかりねっとコネクターNeo」を「ゆかりねっとコネクターNeoに実況内容を連携する」にすると、ゆかりねっとコネクターNeoの外部ツールから文章を受け取るAPIに実況内容を送るようになります。<br />
-これにより、ゆかりねっとコネクターNeo側の設定内容次第で、字幕を出したり、[MTGカード支援プラグイン](https://www.machanbazaar.com/plugin_mtg/)によりカード画像を表示したりできます。<br />
+これにより、ゆかりねっとコネクターNeo側の設定内容次第で、字幕を出したり、[MTGカード支援プラグイン](https://nmori.github.io/yncneo-Docs/plugin/plugin_MTGCard/)によりカード画像を表示したりできます。<br />
 MTGカード支援プラグインを使用するためのカード特定辞書(Card Dictionary)は、mtgatracker_backend.exeを起動した時点でmtgatracker_backendフォルダに自動的に作成されます（commentary_backendフォルダではありません）。<br />
 ファイル名は「CardDictionary.csv」です。<br />
 
@@ -201,8 +201,8 @@ AssistantSeika起動確認ダイアログで「いいえ」をクリックする
 
 * 出力したwavファイルにBGMやシステム通知音等が入ってしまう
   * AssistantSeikaの仕様です。
-  * AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [音声保存時に再生デバイスをキャプチャする] のチェックを**外す**ことで回避できますが、[AssistantSeikaの公式サイト](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E9%9F%B3%E5%A3%B0%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3_%E9%9F%B3%E5%A3%B0%E4%BF%9D%E5%AD%98)では非推奨とされています。
-  * [音声保存時に再生デバイスをキャプチャする] のチェックを外してもWAVファイル出力できることは確認できています。<br />試したい方は、[AssistantSeikaの公式サイト](https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E9%9F%B3%E5%A3%B0%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3_%E9%9F%B3%E5%A3%B0%E4%BF%9D%E5%AD%98)とにらめっこしつつやってみてください。
+  * AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [音声保存時に再生デバイスをキャプチャする] のチェックを**外す**ことで回避できますが、[AssistantSeikaの公式サイト](https://wiki.hgotoh.jp/documents/tools/assistantseika/assistantseika-000#%E9%9F%B3%E5%A3%B0%E4%BF%9D%E5%AD%98%E6%99%82%E3%81%AB%E5%86%8D%E7%94%9F%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%82%92%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%81%99%E3%82%8B)では非推奨とされています。
+  * [音声保存時に再生デバイスをキャプチャする] のチェックを外してもWAVファイル出力できることは確認できています。<br />試したい方は、[AssistantSeikaの公式サイト](https://wiki.hgotoh.jp/documents/tools/assistantseika/assistantseika-000#%E9%9F%B3%E5%A3%B0%E4%BF%9D%E5%AD%98%E6%99%82%E3%81%AB%E5%86%8D%E7%94%9F%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%82%92%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%81%99%E3%82%8B)とにらめっこしつつやってみてください。
 * 出力したwavファイルが[AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)で使用できない
   * AssistantSeikaの [基本設定]タブ > [音声キャプチャ] > [16bitのwavファイルを使用] を選択することで使用できるようになるそうです。
 
