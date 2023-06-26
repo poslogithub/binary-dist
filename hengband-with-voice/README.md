@@ -8,12 +8,12 @@
 
 * OSがWindowsであること。
 * AssistantSeikaがインストール済であること。
-  * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-001a
+  * https://wiki.hgotoh.jp/documents/tools/assistantseika/assistantseika-001a
 * AssistantSeikaに同梱されているSeikaSay2.exeファイルが下記パスにコピー済であること。
   * C:\Program Files\510Product\SeikaSay2\SeikaSay2.exe
   * SeikaSay2フォルダは存在しないので作成してください。
 * AssistantSeikaが対応している音声合成製品がインストール済であること。
-  * https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000#%E5%AF%BE%E5%BF%9C%E8%A3%BD%E5%93%81
+  * https://wiki.hgotoh.jp/documents/tools/assistantseika/assistantseika-000#%E5%AF%BE%E5%BF%9C%E8%A3%BD%E5%93%81
   * [VOICEVOX](https://voicevox.hiroshiba.jp/)は無償なので、お試しするのにおすすめです。
 
 # 導入方法
