@@ -20,7 +20,7 @@
 
 * hengband-with-voice.zipをダウンロードして、適当なフォルダに展開する。
   * https://github.com/poslogithub/binary-dist/raw/main/hengband-with-voice/hengband-with-voice.zip
-  * 環境によっては、ダウンロード時に「ウイルスを検出しました」と表示されてダウンロードできないことがあります。<br />これは、このソフトウェアを作成するために使用したAutoItというスクリプト言語が、ウイルス作成に頻繁に使用されたため、AutoItを使用して作成されたソフトウェアがどんなものでもウイルスではないかと疑われているためです。<br />[参考](https://www.autoitscript.com/wiki/AutoIt_and_Malware) ※リンク先英語です<br />顔も名前も知らない私が作ったソフトウェアがウイルスではないと信じられるならば、ご自身で回避方法を探してダウンロードしてください。<br />
+  * 環境によっては、ダウンロード時に「ウイルスを検出しました」と表示されてダウンロードできないことがあります。<br />これは、このソフトウェアを作成するために使用した[AutoIt](https://www.autoitscript.com/site/)というスクリプト言語が、ウイルス作成に頻繁に使用されたため、AutoItを使用して作成されたソフトウェアがどんなものでもウイルスではないかと疑われているためです。<br />[参考](https://www.autoitscript.com/wiki/AutoIt_and_Malware) ※リンク先英語です<br />顔も名前も知らない私が作ったソフトウェアがウイルスではないと信じられるならば、ご自身で回避方法を探してダウンロードしてください。<br />
 
 # 起動方法
 
