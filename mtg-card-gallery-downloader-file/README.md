@@ -1,9 +1,10 @@
-# mtg-card-gallery-downloader
+# mtg-card-gallery-file-downloader
 
 ## これは何？
 
 Magic: the Gateringのカード画像をセットごとに一括ダウンロードするツールです。
 具体的には、指定したCard Image Galleryのページから全てのカード画像を、指定したフォルダに「カード名.png」という名前で保存します。<br />
+**『統率者マスターズ』以降の、フィルタ機能を備えたカードイメージギャラリーのみ対応しています。**<br />
 
 ## 用途は？
 
@@ -14,22 +15,29 @@ Magic: the Gateringのカード画像をセットごとに一括ダウンロー�
 ## 導入方法
 
 * mtg-card-gallery-downloader.zipをダウンロードして、適当なフォルダに展開する。
-  * https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader/mtg-card-gallery-downloader.zip
+  * [https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader/mtg-card-gallery-downloader.zip](https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader-file/mtg-card-gallery-file-downloader.zip)
 
-## 実行方法
+## 実行方法（よく読んでね）
 
-1. downloader.exeを実行する
-2. 「Card Image Gallery URL」にカード画像をダウンロードしたいCard Image GalleryのURLの入力する。<br />
+1. Webブラウザでカードイメージギャラリーを開く。<br />
    注意：Card Image GalleryのURLには「`https://magic.wizards.com/`」で始まるものと、<br />
    　　　「`https://mtg-jp.com/`」で始まるものの2種類が存在します。<br />
    　　　本ツールは前者「`https://magic.wizards.com/`」で始まるCard Image Galleryのみ対応しています。<br />
-3. 「保存先フォルダ」を指定する。
-4. 「実行」ボタンを押下する。<br />
+2. ダウンロードしたい画像だけが表示されるように、適当にフィルターを指定する。<br />
+   よくわからなかったら、ここは飛ばしても良いです。<br />
+3. カードイメージギャラリーを一番下（利用規約とか行動規範とか書いてあるところ）までスクロールする。<br />
+   この手順は飛ばしてはいけません。<br />
+4. Ctrl+S を押し、カードイメージギャラリーをhtml形式で保存する。<br />
+   保存したフォルダを覚えておきましょう。<br />
+5. downloader.exeを実行する。<br />
+6. 「Card Image Gallery File」にダウンロードしたhtmlファイルのパスを指定する。<br />
+7. 「保存先フォルダ」を指定する。<br />
+8. 「実行」ボタンを押下する。<br />
 　ダウンロード状況はプロンプト（黒背景のウィンドウ）に表示されます。<br />
 
 ## 配布場所
 
-https://github.com/poslogithub/binary-dist/tree/main/mtg-card-gallery-downloader
+[https://github.com/poslogithub/binary-dist/tree/main/mtg-card-gallery-downloader](https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader)
 
 ## 連絡先
 
@@ -39,7 +47,7 @@ https://twitter.com/poslog
 
 MIT License
 
-Copyright (c) 2022 poslogithub
+Copyright (c) 2023 poslogithub
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
