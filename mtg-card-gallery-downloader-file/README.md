@@ -15,7 +15,7 @@ Magic: the Gateringのカード画像をセットごとに一括ダウンロー�
 ## 導入方法
 
 * mtg-card-gallery-downloader.zipをダウンロードして、適当なフォルダに展開する。
-  * [https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader/mtg-card-gallery-downloader.zip](https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader-file/mtg-card-gallery-file-downloader.zip)
+  * https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader-file/mtg-card-gallery-file-downloader.zip
 
 ## 実行方法（よく読んでね）
 
@@ -37,7 +37,7 @@ Magic: the Gateringのカード画像をセットごとに一括ダウンロー�
 
 ## 配布場所
 
-[https://github.com/poslogithub/binary-dist/tree/main/mtg-card-gallery-downloader](https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader)
+https://github.com/poslogithub/binary-dist/raw/main/mtg-card-gallery-downloader-file
 
 ## 連絡先
 
