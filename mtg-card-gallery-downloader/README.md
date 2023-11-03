@@ -2,9 +2,10 @@
 
 ## これは何？
 
-Magic: the Gateringのカード画像をセットごとに一括ダウンロードするツールです。
+Magic: the Gateringのカード画像をセットごとに一括ダウンロードするツールです。<br />
 具体的には、指定したCard Image Galleryのページから全てのカード画像を、指定したフォルダに「カード名.png」という名前で保存します。<br />
 **『統率者マスターズ』以降の、フィルタ機能を備えたカードイメージギャラリーには非対応です。**<br />
+『統率者マスターズ』以降のカードイメージギャラリーからカード画像をダウンロードしたい場合は、[mtg-card-gallery-file-downloader](https://github.com/poslogithub/binary-dist/tree/main/mtg-card-gallery-downloader-file)を使用してください。<br />
 
 ## 用途は？
 
