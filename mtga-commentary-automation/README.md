@@ -32,9 +32,11 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 1. MTG Arenaを起動する。
 2. AssistantSeikaと音声合成製品を起動する。
 3. AssistantSeikaの製品スキャンを実行する。
-4. MTGA自動実況ツール起動.batを実行する。
-5. ゆかりねっとコネクターNeoを起動する。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
-6. ゆかりねっとコネクターNeoのMTGカード支援プラグインの設定を開き、カード特定辞書にmtgatracker_backendフォルダ配下のCardDictionary.csvファイルを指定する。<br />（初回のみ。ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+4. MTG Arenaのホーム画面が表示されていることを確認したら、`mtgatracker_backend\mtgatracker_backend.exe`を実行する。
+5. `mtgatracker_backend.exe`のコンソールで`starting to tail file: ～.log`が表示されていることを確認したら、`commentary_backend\commentary_backend.exe`を実行する。
+6. ゆかりねっとコネクターNeoを起動する。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+7. ゆかりねっとコネクターNeoのMTGカード支援プラグインの設定を開き、カード特定辞書にmtgatracker_backendフォルダ配下のCardDictionary.csvファイルを指定する。<br />（初回のみ。ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+8. `commentary_backend`の設定ウィンドウで諸々設定した後、「開始」ボタンを押す。
 
 * ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、
   * AssistantSeikaと音声合成製品の起動は不要。
@@ -174,7 +176,6 @@ AssistantSeika起動確認ダイアログで「いいえ」をクリックする
     * 創出
     * 抽出
     * 呪文書のドラフト
-    * トークンの死亡、生け贄、追放等
 * 直したけど難しいもの（その他外部ツールの実装に依存するため）
   * ゆかりねっとコネクターNEOと連携してMTGカード連携プラグインでカード画像を表示する際に、誤った画像が表示される場合がある。
     * これは、ゆかりねっとコネクターNEOのMTGキャッシュフォルダ（マイ ドキュメント\YukarinetteConnector\MTGCache）内の同名画像ファイルを、正しい画像ファイルに差し替えることで回避できます。
