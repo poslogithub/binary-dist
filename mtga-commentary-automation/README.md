@@ -10,6 +10,7 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 * OSがWindowsであること。
 * MTG Arenaがインストール済であること。
 * MTG Arenaの詳細ログ（プラグインのサポート）がONであること。
+  * 設定 > アカウント > 詳細ログ（プラグインのサポート） にチェックを入れる
 * AssistantSeikaがインストール済であること。
   * https://wiki.hgotoh.jp/documents/tools/assistantseika/assistantseika-001a
 * AssistantSeikaが対応している音声合成製品がインストール済であること。
@@ -21,22 +22,24 @@ MTG ArenaをVOICEROID等に実況してもらうためのツールです。<br /
 
 # 導入方法
 
-* mtga-commentary-automation.zipをダウンロードして、適当なフォルダに展開する。
+* `mtga-commentary-automation.zip`をダウンロードして、適当なフォルダに展開する。
   * https://github.com/poslogithub/binary-dist/raw/main/mtga-commentary-automation/mtga-commentary-automation.zip
-* commentary_backendフォルダ（commentary_backend.exeファイルが存在するフォルダ）に、AssistantSeikaに同梱されているSeikaSay2.exeファイルをコピーする。
+* `commentary_backend`フォルダ（`commentary_backend.exe`ファイルが存在するフォルダ）に、AssistantSeikaに同梱されている`SeikaSay2.exe`ファイルをコピーする。
 
-※ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、SeikaSay2.exeファイルをコピーは不要。
+※ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、`SeikaSay2.exe`ファイルをコピーは不要。
 
 # 起動方法
 
 1. MTG Arenaを起動する。
-2. AssistantSeikaと音声合成製品を起動する。
-3. AssistantSeikaの製品スキャンを実行する。
-4. MTG Arenaのホーム画面が表示されていることを確認したら、`mtgatracker_backend\mtgatracker_backend.exe`を実行する。
-5. `mtgatracker_backend.exe`のコンソールで`starting to tail file: ～.log`が表示されていることを確認したら、`commentary_backend\commentary_backend.exe`を実行する。
-6. ゆかりねっとコネクターNeoを起動する。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
-7. ゆかりねっとコネクターNeoのMTGカード支援プラグインの設定を開き、カード特定辞書にmtgatracker_backendフォルダ配下のCardDictionary.csvファイルを指定する。<br />（初回のみ。ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
-8. `commentary_backend`の設定ウィンドウで諸々設定した後、「開始」ボタンを押す。
+2. 音声合成製品を起動する。
+3. AssistantSeikaを起動する。
+4. AssistantSeikaの製品スキャンを実行する。
+5. MTG Arenaのホーム画面が表示されていることを確認したら、`mtgatracker_backend\mtgatracker_backend.exe`を実行する。
+6. `mtgatracker_backend.exe`のコンソールで`starting to tail file: ～.log`が表示されるまで待つ。
+7. `commentary_backend\commentary_backend.exe`を実行する。
+8. ゆかりねっとコネクターNeoを起動する。<br />（ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+9. ゆかりねっとコネクターNeoのMTGカード支援プラグインの設定を開き、カード特定辞書に`mtgatracker_backend`フォルダ配下の`CardDictionary.csv`ファイルを指定する。<br />（初回のみ。ゆかりねっとコネクターNeoとの連携機能を利用する場合のみ）
+10. commentary_backendの設定ウィンドウで諸々設定した後、「開始」ボタンを押す。
 
 * ゆかりねっとコネクターNeoとの連携機能だけを利用する場合、
   * AssistantSeikaと音声合成製品の起動は不要。
